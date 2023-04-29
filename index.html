@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="age calculating app">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+   <!-- main css file -->
+   <link rel="stylesheet" href="assets/style/main.css">
+   <!-- font -->
+   <link rel="stylesheet" href="assets/fonts/Poppins-Regular.ttf">
+</head>
+<body>
+
+<div class="card">
+<form action="#">
+<div class="input">
+  <div>
+  <label for='day'>day</label>
+  <input id="day"  type="number" placeholder="DD" required min="0" >
+
+  </div>
+  <div>
+  <label for='month'>month</label>
+  <input id="month" type="number" placeholder="MM" required min="0" max="12">
+</div>
+<div>
+  <label for='year'>year</label>
+  <input id="year" type="number" placeholder="YYYY" required >
+</div>
+
+</div>
+<div class="btn">
+  <button class="submit"><img src="assets/images/icon-arrow.svg" alt="submit"></button>
+</div>
+</form>
+<div class="results">
+  <div><span class="years">--</span> years</div>
+  <div><span class="months">--</span> months</div>
+  <div><span class="days">--</span> days</div>
+
+</div>
+</div> 
+  
+
+<script  src="assets/js/app.js"></script>
+</body>
+</html>
